@@ -19,7 +19,7 @@ This project includes the following key components:
 Through HotelAtlas, the goal is to provide actionable insights into hotel characteristics and performance using rigorous machine learning and data engineering practices.
 
 ## Project Structure
-```bash
+<pre>
 HotelAtlas/
 │
 ├── datasets
@@ -32,6 +32,4 @@ HotelAtlas/
 ├── LICENCE
 |
 ├── requirements.txt
-```
-
-
+</pre>
