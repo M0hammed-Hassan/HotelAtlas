@@ -1,5 +1,5 @@
 # HotelAtlas
-Welcome to HotelAtlas, where Machine Learning meets your next vacation spot.
+**Welcome to HotelAtlas, where Machine Learning meets your next vacation spot.**
 
 In this project, i’m unleashing the full power of Machine Learning magic, both Supervised and Unsupervised, plus some SQL wizardry, all to decode the mysteries hidden in a massive hotel dataset.
 I guess now you know why i named it HotelAtlas as our journey needs to dive into the world of math and many different algorithms so we need an atlas.
