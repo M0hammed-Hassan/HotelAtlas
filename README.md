@@ -26,10 +26,29 @@ HotelAtlas/
 │   ├── row_hotels_dataset.csv
 |
 ├── jupyter_notebooks/
+│   ├── EDA_hotels.ipynb
 |
 ├── README.md    
 |
 ├── LICENCE
 |
 ├── requirements.txt
+|
+├── .gitignore
 </pre>
+
+## Get Started
+### 1. Python & Environment Setup
+- I suggest using python >= 3.10
+- Create your conda environment
+    ```bash
+    $ conda create --name env-name python==3.10
+    ```
+- Activate your environment
+    ```bash
+    $ conda activate env-name
+    ```
+### 2. Install Dependencies
+```bash
+$ pip install -r requirements.txt
+```
