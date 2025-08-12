@@ -1,6 +1,4 @@
 # HotelAtlas
-
-# Overview
 Welcome to HotelAtlas, where Machine Learning meets your next vacation spot.
 
 In this project, i’m unleashing the full power of Machine Learning magic, both Supervised and Unsupervised, plus some SQL wizardry, all to decode the mysteries hidden in a massive hotel dataset.
@@ -19,5 +17,21 @@ This project includes the following key components:
 - Utilizing SQL queries for data aggregation, ranking, and enrichment to support deeper analysis.
 
 Through HotelAtlas, the goal is to provide actionable insights into hotel characteristics and performance using rigorous machine learning and data engineering practices.
+
+## Project Structure
+```bash
+HotelAtlas/
+│
+├── datasets
+│   ├── row_hotels_dataset.csv
+|
+├── jupyter_notebooks/
+|
+├── README.md    
+|
+├── LICENCE
+|
+├── requirements.txt
+```
 
 
