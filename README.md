@@ -56,7 +56,7 @@ $ pip install -r requirements.txt
 
 ## Hotel EDA Report
 
-This notebook contains an **Exploratory Data Analysis (EDA)** on hotel-related data, aiming to uncover patterns, and insights that can support decision-making and further modeling.
+This notebook(`jupyter_notebooks/hotel_eda_report.ipynb`) contains an **Exploratory Data Analysis (EDA)** on hotel-related data, aiming to uncover patterns, and insights that can support decision-making and further modeling.
 
 #### Objectives
 - Understand the structure and quality of the dataset.
@@ -67,3 +67,4 @@ This notebook contains an **Exploratory Data Analysis (EDA)** on hotel-related d
 
 ### Results
 - **Cleaned version of dataset** that can be used for different machine learning approaches. 
+- Cleaned version of dataset saved into the `datasets/cleaned_hotels_dataset.xlsx`
