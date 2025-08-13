@@ -31,7 +31,7 @@ def plot_categorical_feature(df:pd.DataFrame, column:str, top_n:int = 10):
     value_counts = value_counts.head(top_n)
 
     plt.figure(figsize=(8, 5))
-    sns.barplot(x=value_counts.values.astype(str), y=value_counts.index, palette="viridis")
+    sns.barplot(x=value_counts.values, y=value_counts.index, palette="viridis")
     plt.xlabel("Count")
     plt.ylabel(column.title())
     plt.title(f"Distribution of {column.title()}")
