@@ -23,11 +23,18 @@ Through HotelAtlas, the goal is to provide actionable insights into customer seg
 <pre>
 HotelAtlas/
 │
+├── assets/
+│   ├── configs.py
+│   ├── utils.py
+|
 ├── datasets
-│   ├── row_hotels_dataset.csv
+│   ├── row_hotels_dataset.xlsx
+│   ├── cleaned_hotels_dataset.xlsx
+│   ├── segmented_customers_dataset.xlsx
 |
 ├── jupyter_notebooks/
-│   ├── EDA_hotels.ipynb
+│   ├── hotel_eda_report.ipynb
+│   ├── customer_segmentation.ipynb
 |
 ├── README.md    
 |
@@ -54,7 +61,7 @@ HotelAtlas/
 $ pip install -r requirements.txt
 ```
 
-## Hotel EDA Report
+## Hotel EDA Notebook
 
 This notebook(`jupyter_notebooks/hotel_eda_report.ipynb`) contains an **Exploratory Data Analysis (EDA)** on hotel-related data, aiming to uncover patterns, and insights that can support decision-making and further modeling.
 
@@ -68,3 +75,18 @@ This notebook(`jupyter_notebooks/hotel_eda_report.ipynb`) contains an **Explorat
 ### Results
 - **Cleaned version of dataset** that can be used for different machine learning approaches. 
 - Cleaned version of dataset saved into the `datasets/cleaned_hotels_dataset.xlsx`
+
+
+## Customer Segmentation Notebook
+
+This notebook(`jupyter_notebooks/customer_segmentation.ipynb`) contains a **Clustering Analysis** on hotel-related data that cleaned and preprocessed in the previous step.
+
+#### Objectives
+- Find the best number of clusters to segment customers.
+- Apply dimentinality reduction algorithms to help in visualizing and clustering customers segments.
+- Apply different clustering algorithms to segment customers.
+- Save the best clustering results.
+
+### Results
+- A high quality produced **Customer Segmentation Dataset** that contains features related to customer segments with labels.
+- The dataset saved into the `datasets/segmented_customers_dataset.xlsx`
