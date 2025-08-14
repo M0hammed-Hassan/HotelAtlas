@@ -239,7 +239,7 @@ Confusion matrices for **train**, **validation**, and **test** datasets are save
 </table>
 
 ## What's Next:
-- Implementing a ANN from scratch customized to the classification task and see it's results.
+- Implementing an ANN from scratch customized to the classification task and see it's results.
 - For production purposes:
     - Creating an OOP classes that serve clustering and classification includes their needed methods like   ```clsuer() or classify()```.
     - An endpoints to host these models, for example using FastAPI.
