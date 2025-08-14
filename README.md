@@ -26,7 +26,7 @@ HotelAtlas/
 ├── assets/
 │   ├── configs.py
 │   ├── utils.py
-|
+|   
 ├── datasets
 │   ├── row_hotels_dataset.xlsx
 │   ├── cleaned_hotels_dataset.xlsx
@@ -35,6 +35,19 @@ HotelAtlas/
 ├── jupyter_notebooks/
 │   ├── hotel_eda_report.ipynb
 │   ├── customer_segmentation.ipynb
+|
+├── model_results/
+│   ├── RandomForest/
+|   |   ├── metrics.json
+|   |   ├── ...
+│   ├── SVC/
+|   |   ├── metrics.json
+|   |   ├── ...
+|
+├── src/
+│   ├── train.py
+|
+├── run.sh
 |
 ├── README.md    
 |
@@ -61,7 +74,8 @@ HotelAtlas/
 $ pip install -r requirements.txt
 ```
 
-## Hotel EDA Notebook
+## **Produced Reports**
+### **`Hotel EDA Notebook`**
 
 This notebook(`jupyter_notebooks/hotel_eda_report.ipynb`) contains an **Exploratory Data Analysis (EDA)** on hotel-related data, aiming to uncover patterns, and insights that can support decision-making and further modeling.
 
@@ -77,7 +91,7 @@ This notebook(`jupyter_notebooks/hotel_eda_report.ipynb`) contains an **Explorat
 - Cleaned version of dataset saved into the `datasets/cleaned_hotels_dataset.xlsx`
 
 
-## Customer Segmentation Notebook
+### **`Customer Segmentation Notebook`**
 
 This notebook(`jupyter_notebooks/customer_segmentation.ipynb`) contains a **Clustering Analysis** on hotel-related data that cleaned and preprocessed in the previous step.
 
@@ -91,7 +105,7 @@ This notebook(`jupyter_notebooks/customer_segmentation.ipynb`) contains a **Clus
 - A high quality produced **Customer Segmentation Dataset** that contains features related to customer segments with labels.
 - The dataset saved into the `datasets/segmented_customers_dataset.xlsx`
 
-## Classify Customer Segments
+### **`Classify Customer Segments`**
 This implements a **machine learning training pipeline** for customer segmentation using **Random Forest** and **Support Vector Classifier (SVC)**.  
 The dataset is preprocessed, split into **training**, **validation**, and **test** sets, scaled with `StandardScaler`, and then fed into the models.  
 The pipeline produces **evaluation metrics** and **visualizations** for better model interpretability.
@@ -214,4 +228,3 @@ Confusion matrices for **train**, **validation**, and **test** datasets are save
 <td align="center">Test Set</td>
 </tr>
 </table>
-
