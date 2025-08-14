@@ -79,6 +79,8 @@ HotelAtlas/
 $ pip install -r requirements.txt
 ```
 
+## Dataset
+You can view and download the dataset from [here](https://docs.google.com/spreadsheets/d/1pIQqy-JPpB5JA1pEaM5ZVaBzMOHk3otS/edit?usp=drive_link&ouid=117163576338905860943&rtpof=true&sd=true)
 ## Download Trained Models
 This guide shows how to download a file from Google Drive using Python and the [`gdown`](https://github.com/wkentaro/gdown) library.
 
