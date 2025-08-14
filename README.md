@@ -41,7 +41,7 @@ HotelAtlas/
 |   |   ├── metrics.json
 |   |   ├── ...
 │   ├── SVC/
-|   |   ├── metrics.json# Close connection
+|   |   ├── metrics.json
 |   |   ├── ...
 |
 ├── sqlite/
