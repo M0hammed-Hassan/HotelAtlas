@@ -54,6 +54,8 @@ HotelAtlas/
 |
 ├── README.md    
 |
+├── customer_segments.db
+|
 ├── LICENCE
 |
 ├── requirements.txt
