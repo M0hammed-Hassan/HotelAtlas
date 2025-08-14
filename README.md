@@ -41,8 +41,11 @@ HotelAtlas/
 |   |   ├── metrics.json
 |   |   ├── ...
 │   ├── SVC/
-|   |   ├── metrics.json
+|   |   ├── metrics.json# Close connection
 |   |   ├── ...
+|
+├── sqlite/
+│   ├── queries.py
 |
 ├── src/
 │   ├── train.py
@@ -234,3 +237,15 @@ Confusion matrices for **train**, **validation**, and **test** datasets are save
 <td align="center">Test Set</td>
 </tr>
 </table>
+
+## What's Next:
+- Implementing a ANN from scratch customized to the classification task and see it's results.
+- For production purposes:
+    - Creating an OOP classes that serve clustering and classification includes their needed methods like   ```clsuer() or classify()```.
+    - An endpoints to host these models, for example using FastAPI.
+    - Create two seperated services one for clustering and the other one for classification.
+    - Use docker stack deploy to deploy these two services.
+    - Test the whole pipeline.
+- We can use provided python pipelines for process sequential preprocessing one at a time.
+
+-- Just ended for now, but not at all ((:
