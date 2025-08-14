@@ -205,3 +205,4 @@ __marimo__/
 # Extra stuff
 *.xlsx
 .vscode
+*.joblib
