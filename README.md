@@ -74,6 +74,12 @@ HotelAtlas/
 $ pip install -r requirements.txt
 ```
 
+## Train Your Own Models
+```bash
+$ chmod +x run.sh
+$ ./run.sh
+```
+
 ## **Produced Reports**
 ### **`Hotel EDA Notebook`**
 
