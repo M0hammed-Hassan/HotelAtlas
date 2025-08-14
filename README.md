@@ -77,6 +77,32 @@ HotelAtlas/
 $ pip install -r requirements.txt
 ```
 
+## Download Trained Models
+This guide shows how to download a file from Google Drive using Python and the [`gdown`](https://github.com/wkentaro/gdown) library.
+
+---
+
+#### 1. Install Requirements
+
+```bash
+pip install gdown
+```
+---
+
+#### 2. Python Script
+
+```python
+import gdown
+
+file_id = "1RKoGGyz7dV7lWADXs5FunwVydfDFw6lN"
+
+url = f"https://drive.google.com/uc?id={file_id}"
+
+output = "trained_models.zip" 
+
+gdown.download(url, output, quiet=False)
+```
+
 ## Train Your Own Models
 ```bash
 $ chmod +x run.sh
