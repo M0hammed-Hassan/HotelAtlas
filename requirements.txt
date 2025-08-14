@@ -5,3 +5,4 @@ openpyxl==3.1.5
 scikit-learn==1.7.1
 scipy==1.10.1                                                                         
 scikit-plot==0.3.7
+joblib==1.5.1
